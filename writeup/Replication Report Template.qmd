@@ -19,6 +19,9 @@ The procedure will include two practice trials, the first one being spatially al
 About 15 neurotypical adult participants will be recruited (which is consistent with a similar study conducted by de Heering et al. 2007, where they also did the CFE task both with kids and adults.)
 One challenge will be creating an appropriate face stimuli and create face-pairs for the design. Another challenge will be ensuring that participants remain attentive through the trials. For that, I’ll be including an exclusion criteria that if participants said all “same” or all “different” responses, which would be an indicator of not paying attention. Participants who also fail to finish the experiment will also be excluded.
 
+Link to paper: https://github.com/annapusok731/yates2023/tree/2885fd3f36660e431e4876c7b2f4dec89f9b7a79/original_paper
+
+Repository: https://github.com/annapusok731/yates2023.git
 
 ## Methods
 
