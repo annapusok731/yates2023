@@ -1,0 +1,102 @@
+---
+title: "Replication of Study X by Sample & Sample (20xx, Psychological Science)"
+author: "Replication Author[s] (contact information)"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+format:
+  html:
+    toc: true
+    toc_depth: 3
+---
+
+<!-- Replication reports should all use this template to standardize reporting across projects.  These reports will be public supplementary materials that accompany the summary report(s) of the aggregate results. -->
+
+## Introduction
+
+Autism Spectrum Disorder (ASD) is characterized by impairments in social communication, repetitive behaviors and restricted interests. Face perception is foundational to early social communication. The composite face effect (CFE) is a marker of holistic face processing and is present in typically developing children (Yates & Lewkowicz, 2023, de Heering et al., 2007), but prior work in adolescents and adults with ASD have reported inconsistent findings (Gauthier et al., 2009; Hsiung & Chien, 2024; Teunisse & de Gelder, 2003), and no study tested CFE in young children (below the ages of 9 years old). My first year project aims to fill this gap by testing holistic face processing in young children with ASD. As a first step, for my statistics project, I want to pilot the task with neurotypical adults to validate the paradigm and ensure the procedure is feasible before extending it to child populations. Yates & Lewkowicz, 2023 tested the CFE paradigm in children ages 4-6, with findings that kids as young as 4 exhibit holistic face processing, so I am planning to replicate their study.
+
+For the stimuli, I plan to use a 144 Caucasian hairless faces (72 male, 72 female) with neutral expressions, from the Chicago Face Database. The face images will be grayscale displayed on a white screen, and the top parts of the faces will be highlighted, consistent with prior (Yates & Lewkowicz, 2023). Yates & Lewkowicz uses 36 test trials for children ages 4-6. For my adult sample, I’d like to use 108 test trials (three times their test trials, which is more appropriate for adults.) In Yates & Lewkowicz (2023), the authors used 24 identity pairs, so I will need 72 face pairs, to account for the higher number of test trials.
+
+The procedure will include two practice trials, the first one being spatially aligned composite faces where the top halves are of different faces, the other being spatially misaligned with same top halves. Participants will receive feedback during the practice trials, and the experiment only advances forward when participants select the correct choice. The test phase will consist of 3 blocks of 36 test trials with short breaks between the blocks.
+
+About 15 neurotypical adult participants will be recruited (which is consistent with a similar study conducted by de Heering et al. 2007, where they also did the CFE task both with kids and adults.)
+
+One challenge will be creating an appropriate face stimuli and create face-pairs for the design. Another challenge will be ensuring that participants remain attentive through the trials. For that, I’ll be including an exclusion criteria that if participants said all “same” or all “different” responses, which would be an indicator of not paying attention. Participants who also fail to finish the experiment will also be excluded.
+
+
+## Methods
+
+### Power Analysis
+
+Original effect size, power analysis for samples to achieve 80%, 90%, 95% power to detect that effect size.  Considerations of feasibility for selecting planned sample size.
+
+### Planned Sample
+
+For the adult sample, we aimed for 15 adults.
+
+### Materials
+
+All materials - can quote directly from original article - just put the text in quotations and note that this was followed precisely.  Or, quote directly and just point out exceptions to what was described in the original article.
+
+### Procedure	
+
+Can quote directly from original article - just put the text in quotations and note that this was followed precisely.  Or, quote directly and just point out exceptions to what was described in the original article.
+
+### Analysis Plan
+
+Can also quote directly, though it is less often spelled out effectively for an analysis strategy section.  The key is to report an analysis strategy that is as close to the original - data cleaning rules, data exclusion rules, covariates, etc. - as possible.  
+
+**Clarify key analysis of interest here**  You can also pre-specify additional analyses you plan to do.
+
+### Differences from Original Study
+
+Explicitly describe known differences in sample, setting, procedure, and analysis plan from original study.  The goal, of course, is to minimize those differences, but differences will inevitably occur.  Also, note whether such differences are anticipated to make a difference based on claims in the original article or subsequent published research on the conditions for obtaining the effect.
+
+### Methods Addendum (Post Data Collection)
+
+You can comment this section out prior to final report with data collection.
+
+#### Actual Sample
+  Sample size, demographics, data exclusions based on rules spelled out in analysis plan
+
+#### Differences from pre-data collection methods plan
+  Any differences from what was described as the original plan, or “none”.
+
+
+## Results
+
+
+### Data preparation
+
+Data preparation following the analysis plan.
+	
+```{r include=F}
+### Data Preparation
+
+#### Load Relevant Libraries and Functions
+
+#### Import data
+
+#### Data exclusion / filtering
+
+#### Prepare data for analysis - create columns etc.
+```
+
+### Confirmatory analysis
+
+The analyses as specified in the analysis plan.  
+
+*Side-by-side graph with original graph is ideal here*
+
+### Exploratory analyses
+
+Any follow-up analyses desired (not required).  
+
+## Discussion
+
+### Summary of Replication Attempt
+
+Open the discussion section with a paragraph summarizing the primary result from the confirmatory analysis and the assessment of whether it replicated, partially replicated, or failed to replicate the original result.  
+
+### Commentary
+
+Add open-ended commentary (if any) reflecting (a) insights from follow-up exploratory analysis, (b) assessment of the meaning of the replication (or not) - e.g., for a failure to replicate, are the differences between original and present study ones that definitely, plausibly, or are unlikely to have been moderators of the result, and (c) discussion of any objections or challenges raised by the current and original authors about the replication attempt.  None of these need to be long.
