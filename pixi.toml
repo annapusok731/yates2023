@@ -1,0 +1,16 @@
+[workspace]
+authors = ["annapusok731 <annapusok@ucsd.edu>"]
+channels = ["conda-forge"]
+name = "yates2023"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+render = "quarto render writeup"
+preview = "quarto preview writeup"
+
+[dependencies]
+r-base = ">=4.5.1,<4.6"
+quarto = ">=1.8.25,<2"
+r-knitr = ">=1.50,<2"
+r-rmarkdown = ">=2.30,<3"
